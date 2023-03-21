@@ -3,8 +3,18 @@
 The goal of this report is to build a deep machine learning model to predict if applications will be successful if funded. We will train the model by using funding information from around 34,000 applicants over the past couple years. The data includes many aspects of a funding application. A couple examples are: type of organization requesting funding, what the money is being used for, and how much the applicant is asking for. The goal is to achieve a target predictive accuracy of 75% or higher.
 
 ## Resources
-Software Used: Visual Studio Code 1.71.2, Anaconda 2022.05, Jupyter Notebook 6.4.8, Python 3.7.13<br/>
-Python Libraries: [sklearn](https://scikit-learn.org/stable/), [pandas](https://pandas.pydata.org/docs/), [tensorflow](https://www.tensorflow.org/), [keras_tuner](https://keras.io/keras_tuner/), [matplotlib](https://matplotlib.org/)
+#### Software Used: 
+- Visual Studio Code 1.71.2
+- Anaconda 2022.05
+- Jupyter Notebook 6.4.8
+- Python 3.7.13
+
+#### Python Libraries: 
+- [sklearn](https://scikit-learn.org/stable/)
+- [pandas](https://pandas.pydata.org/docs/)
+- [tensorflow](https://www.tensorflow.org/)
+- [keras_tuner](https://keras.io/keras_tuner/)
+- [matplotlib](https://matplotlib.org/)
 
 ## Results
 ### Data Preprocessing
