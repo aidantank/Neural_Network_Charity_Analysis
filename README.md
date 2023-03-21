@@ -1,6 +1,6 @@
-# Neural_Network_Charity_Analysis
+# Neural Network Charity Analysis
 ## Overview
-The goal of this report is to build a deep machine learning model to predict if applications will be successful if funded. We will train the model by using funding information from around 34,000 applicants over the past couple years. The data includes many aspects of a funding application. A couple examples are: type of organization requesting funding, what the money is being used for, and how much the applicant is asking for. The goal is to achieve a target predictive accuracy of 75% or higher.
+The goal of this report is to build a deep machine learning model to predict if charity applications will be successful if funded. We will train the model by using funding information from around 34,000 applicants over the past couple years. The data includes many aspects of a funding application. A couple examples are: type of organization requesting funding, what the money is being used for, and how much the applicant is asking for. The goal is to achieve a target predictive accuracy of 75% or higher.
 
 ## Resources
 #### Software Used: 
@@ -36,7 +36,6 @@ The initial model used three layers.
 See summary of this model below:
 
 ![](Images/Base_Summary.PNG)
-> Initial Model Summary
 
 The results of this model were as follows:
 - Accuracy Score: 72.94%
@@ -58,15 +57,14 @@ The results of the attempted optimized model was very similar:
 And lastly I engineered some of the data to capture the large outliers from the asking amount category. The majority of the asking amounts was for $5,000, but there were some were above 1 million dollars asked. I created a boxplot of the non outlier asking amounts to get a better picture of the distribution:
 
 ![](Images/Optimized_BoxplotPNG.PNG)
-> Distribution of Asking Amounts
 
-From this distribution I binned the asking amount into the following categories:
+Due to the distribution I decided to bin the asking amounts into the following categories with the hopes of removing outliers in the model:
 - $5,000 or less
 - $5,001 - $7,500
 - $7,501 - $12,00
 - $12,000+
 
-Using these new bins I ran the opitimized model again and got the following results:
+Using these new bins I ran the opitimized model again and got the following slightly better results:
 - Accuracy Score: 73.05%
 - Loss Metric: 0.553
 
