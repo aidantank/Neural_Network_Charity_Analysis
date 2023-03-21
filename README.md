@@ -4,7 +4,7 @@ The goal of this report is to build a deep machine learning model to predict if 
 
 ## Resources
 Software Used: Visual Studio Code 1.71.2, Anaconda 2022.05, Jupyter Notebook 6.4.8, Python 3.7.13<br/>
-Python Libraries: [sklearn](https://scikit-learn.org/stable/), [pandas](https://pandas.pydata.org/docs/), [tensorflow](https://www.tensorflow.org/), [keras_tuner](https://keras.io/keras_tuner/), [matplotlib](https://matplotlib.org/)
+Python Libraries: [sklearn](https://scikit-learn.org/stable/), [pandas](https://pandas.pydata.org/docs/), [tensorflow](https://www.tensorflow.org/), [keras_tuner](https://keras.io/keras_tuner/), [matplotlib](https://matplotlib.org/), <a href="https://pandas.pydata.org/docs/" target="_blank">pandas II</a>
 
 ## Results
 ### Data Preprocessing
